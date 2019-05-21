@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CoreDataDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ui-si-pTX">
+                                <rect key="frame" x="168.5" y="187" width="38" height="30"/>
+                                <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="onLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jcs-Ce-Yff"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ykQ-Op-eoS">
+                                <rect key="frame" x="10" y="333.5" width="355" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qEr-z7-1ai">
+                                <rect key="frame" x="20" y="113" width="335" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8s-r1-Ybm">
+                                <rect key="frame" x="308" y="20" width="51" height="30"/>
+                                <state key="normal" title="LogOut"/>
+                                <connections>
+                                    <action selector="logOut:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2no-h7-Ver"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzZ-AX-qdl">
+                                <rect key="frame" x="10" y="20" width="131" height="30"/>
+                                <state key="normal" title="Update User Name"/>
+                                <connections>
+                                    <action selector="updateUserName:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JiY-Vp-biS"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fjr-EG-aeC">
+                                <rect key="frame" x="0.0" y="315" width="375" height="352"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qEr-z7-1ai" secondAttribute="trailing" constant="20" id="3LF-TC-AFS"/>
+                            <constraint firstItem="7Ui-si-pTX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Afd-sK-thP"/>
+                            <constraint firstItem="7Ui-si-pTX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="167" id="DrW-3m-4Qo"/>
+                            <constraint firstItem="qEr-z7-1ai" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fd6-r4-9hu"/>
+                            <constraint firstItem="ykQ-Op-eoS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OHD-4I-mvG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Fjr-EG-aeC" secondAttribute="bottom" id="P1I-Ux-21y"/>
+                            <constraint firstItem="Fjr-EG-aeC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="295" id="TvB-P7-gRU"/>
+                            <constraint firstItem="I8s-r1-Ybm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="W6G-Fs-rZO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ykQ-Op-eoS" secondAttribute="trailing" constant="10" id="Wdw-mb-vCv"/>
+                            <constraint firstItem="qzZ-AX-qdl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="YLs-6C-Wuu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Fjr-EG-aeC" secondAttribute="trailing" id="bPQ-NA-rQg"/>
+                            <constraint firstItem="qEr-z7-1ai" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jic-qt-ppK"/>
+                            <constraint firstItem="Fjr-EG-aeC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jvP-Dy-jbQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="I8s-r1-Ybm" secondAttribute="trailing" constant="16" id="mdt-m7-EYV"/>
+                            <constraint firstItem="qzZ-AX-qdl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="oZa-Jp-ruG"/>
+                            <constraint firstItem="ykQ-Op-eoS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wKz-cb-SfJ"/>
+                            <constraint firstItem="qEr-z7-1ai" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="93" id="yUA-yi-Jb0"/>
+                            <constraint firstItem="ykQ-Op-eoS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="zmB-t2-Gz0"/>
+                            <constraint firstItem="Fjr-EG-aeC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zq1-hm-6ex"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="helloMessage" destination="ykQ-Op-eoS" id="9UT-tk-Jsg"/>
+                        <outlet property="imageView" destination="Fjr-EG-aeC" id="E8e-LA-jCs"/>
+                        <outlet property="loginButton" destination="7Ui-si-pTX" id="aaB-MR-UQt"/>
+                        <outlet property="userName" destination="qEr-z7-1ai" id="ah4-E7-GdF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="33.733133433283363"/>
+        </scene>
+    </scenes>
+</document>

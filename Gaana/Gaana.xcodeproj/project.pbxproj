@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C53F3DBF20E51D3F00F546BA /* Pods_Gaana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53F3DBD20E51D1800F546BA /* Pods_Gaana.framework */; };
+		C55F26DE20E50FEE0005A103 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55F26DD20E50FEE0005A103 /* AppDelegate.swift */; };
+		C55F26E020E50FEE0005A103 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55F26DF20E50FEE0005A103 /* ViewController.swift */; };
+		C55F26E320E50FEE0005A103 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55F26E120E50FEE0005A103 /* Main.storyboard */; };
+		C55F26E620E50FEE0005A103 /* Gaana.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C55F26E420E50FEE0005A103 /* Gaana.xcdatamodeld */; };
+		C55F26E820E50FF00005A103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55F26E720E50FF00005A103 /* Assets.xcassets */; };
+		C55F26EB20E50FF00005A103 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55F26E920E50FF00005A103 /* LaunchScreen.storyboard */; };
+		C55F26F420E5104E0005A103 /* MovieInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55F26F320E5104E0005A103 /* MovieInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		096518F49193C890085062AD /* Pods-Gaana.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gaana.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gaana/Pods-Gaana.release.xcconfig"; sourceTree = "<group>"; };
+		AE4BEB064864BF1996FC77FE /* Pods-Gaana.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gaana.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gaana/Pods-Gaana.debug.xcconfig"; sourceTree = "<group>"; };
+		C53F3DB720E51AC600F546BA /* SwiftSoup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftSoup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53F3DB920E51AE900F546BA /* SwiftSoup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftSoup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53F3DBB20E51CFB00F546BA /* SwiftSoup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftSoup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53F3DBD20E51D1800F546BA /* Pods_Gaana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Gaana.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55F26DA20E50FEE0005A103 /* Gaana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gaana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55F26DD20E50FEE0005A103 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C55F26DF20E50FEE0005A103 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C55F26E220E50FEE0005A103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C55F26E520E50FEE0005A103 /* Gaana.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gaana.xcdatamodel; sourceTree = "<group>"; };
+		C55F26E720E50FF00005A103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C55F26EA20E50FF00005A103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C55F26EC20E50FF00005A103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C55F26F320E5104E0005A103 /* MovieInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfo.swift; sourceTree = "<group>"; };
+		D23D00E2511DB7318E57925C /* Pods_Gaana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gaana.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C55F26D720E50FEE0005A103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53F3DBF20E51D3F00F546BA /* Pods_Gaana.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BEB64CCFA3CA1B76400EB87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE4BEB064864BF1996FC77FE /* Pods-Gaana.debug.xcconfig */,
+				096518F49193C890085062AD /* Pods-Gaana.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C55F26D120E50FEE0005A103 = {
+			isa = PBXGroup;
+			children = (
+				C55F26DC20E50FEE0005A103 /* Gaana */,
+				C55F26DB20E50FEE0005A103 /* Products */,
+				9BEB64CCFA3CA1B76400EB87 /* Pods */,
+				D3F5BC0AB1D6DF3CF31311DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C55F26DB20E50FEE0005A103 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C55F26DA20E50FEE0005A103 /* Gaana.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C55F26DC20E50FEE0005A103 /* Gaana */ = {
+			isa = PBXGroup;
+			children = (
+				C55F26F220E510190005A103 /* Models */,
+				C55F26DD20E50FEE0005A103 /* AppDelegate.swift */,
+				C55F26DF20E50FEE0005A103 /* ViewController.swift */,
+				C55F26E120E50FEE0005A103 /* Main.storyboard */,
+				C55F26E720E50FF00005A103 /* Assets.xcassets */,
+				C55F26E920E50FF00005A103 /* LaunchScreen.storyboard */,
+				C55F26EC20E50FF00005A103 /* Info.plist */,
+				C55F26E420E50FEE0005A103 /* Gaana.xcdatamodeld */,
+			);
+			path = Gaana;
+			sourceTree = "<group>";
+		};
+		C55F26F220E510190005A103 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C55F26F320E5104E0005A103 /* MovieInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D3F5BC0AB1D6DF3CF31311DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C53F3DBD20E51D1800F546BA /* Pods_Gaana.framework */,
+				C53F3DBB20E51CFB00F546BA /* SwiftSoup.framework */,
+				C53F3DB920E51AE900F546BA /* SwiftSoup.framework */,
+				C53F3DB720E51AC600F546BA /* SwiftSoup.framework */,
+				D23D00E2511DB7318E57925C /* Pods_Gaana.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C55F26D920E50FEE0005A103 /* Gaana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55F26EF20E50FF00005A103 /* Build configuration list for PBXNativeTarget "Gaana" */;
+			buildPhases = (
+				5290CC69B10A3171985D960E /* [CP] Check Pods Manifest.lock */,
+				C55F26D620E50FEE0005A103 /* Sources */,
+				C55F26D720E50FEE0005A103 /* Frameworks */,
+				C55F26D820E50FEE0005A103 /* Resources */,
+				62BF6E197052F4C3F0760986 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gaana;
+			productName = Gaana;
+			productReference = C55F26DA20E50FEE0005A103 /* Gaana.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C55F26D220E50FEE0005A103 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = MAB;
+				TargetAttributes = {
+					C55F26D920E50FEE0005A103 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = C55F26D520E50FEE0005A103 /* Build configuration list for PBXProject "Gaana" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C55F26D120E50FEE0005A103;
+			productRefGroup = C55F26DB20E50FEE0005A103 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C55F26D920E50FEE0005A103 /* Gaana */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C55F26D820E50FEE0005A103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55F26EB20E50FF00005A103 /* LaunchScreen.storyboard in Resources */,
+				C55F26E820E50FF00005A103 /* Assets.xcassets in Resources */,
+				C55F26E320E50FEE0005A103 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5290CC69B10A3171985D960E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gaana-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62BF6E197052F4C3F0760986 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Gaana/Pods-Gaana-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gaana/Pods-Gaana-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C55F26D620E50FEE0005A103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55F26E020E50FEE0005A103 /* ViewController.swift in Sources */,
+				C55F26E620E50FEE0005A103 /* Gaana.xcdatamodeld in Sources */,
+				C55F26F420E5104E0005A103 /* MovieInfo.swift in Sources */,
+				C55F26DE20E50FEE0005A103 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C55F26E120E50FEE0005A103 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C55F26E220E50FEE0005A103 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C55F26E920E50FF00005A103 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C55F26EA20E50FF00005A103 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C55F26ED20E50FF00005A103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C55F26EE20E50FF00005A103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C55F26F020E50FF00005A103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE4BEB064864BF1996FC77FE /* Pods-Gaana.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35GN95VT88;
+				INFOPLIST_FILE = Gaana/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mab.Gaana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C55F26F120E50FF00005A103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 096518F49193C890085062AD /* Pods-Gaana.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35GN95VT88;
+				INFOPLIST_FILE = Gaana/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mab.Gaana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C55F26D520E50FEE0005A103 /* Build configuration list for PBXProject "Gaana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55F26ED20E50FF00005A103 /* Debug */,
+				C55F26EE20E50FF00005A103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C55F26EF20E50FF00005A103 /* Build configuration list for PBXNativeTarget "Gaana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55F26F020E50FF00005A103 /* Debug */,
+				C55F26F120E50FF00005A103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C55F26E420E50FEE0005A103 /* Gaana.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C55F26E520E50FEE0005A103 /* Gaana.xcdatamodel */,
+			);
+			currentVersion = C55F26E520E50FEE0005A103 /* Gaana.xcdatamodel */;
+			path = Gaana.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C55F26D220E50FEE0005A103 /* Project object */;
+}
